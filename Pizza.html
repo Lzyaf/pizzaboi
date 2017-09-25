@@ -1,0 +1,92 @@
+<html><body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
+<div id="movie"></div>
+<script>
+  bonsai.run(document.getElementById('movie'), {
+    code: function() {
+      
+      var container = new Group();
+container.animate(new KeyframeAnimation('2s', {
+  '0%': { x: 0, y: 0 },
+  '50%': { x:500, y: 0 },
+  '100%': { x: 0, y:500, rotation: Math.PI*2}
+},
+{
+  repeat: Infinity
+}
+));
+new Rect(100, 100, 10, 40).fill("black").addTo(container);
+var rect2 = new Rect(110, 140, 10, 40).fill("black").addTo(container);
+var rect3 = new Rect(120, 180, 10, 40).fill("black").addTo(container);
+var rect4 = new Rect(130, 220, 10, 30).fill("black").addTo(container);
+var rect5 = new Rect(100, 100, 40, 10).fill("black").addTo(container);
+var rect6 = new Rect(140, 110, 40, 10).fill("black").addTo(container);
+var rect7 = new Rect(180, 120, 40, 10).fill("black").addTo(container);
+var rect8 = new Rect(220, 130, 30, 10).fill("black").addTo(container);
+var rect9 = new Rect(240, 130, 10, 40).fill("black").addTo(container);
+var rect10 = new Rect(230, 170, 10, 20).fill("black").addTo(container);
+var rect11 = new Rect(220, 190, 10, 10).fill("black").addTo(container);
+var rect12 = new Rect(210, 200, 10, 10).fill("black").addTo(container);
+var rect13 = new Rect(200, 210, 10, 10).fill("black").addTo(container);
+var rect14 = new Rect(190, 220, 10, 10).fill("black").addTo(container);
+var rect15 = new Rect(170, 230, 20, 10).fill("black").addTo(container);
+var rect16 = new Rect(130, 240, 40, 10).fill("black").addTo(container);
+var rect17 = new Rect(130, 220, 30, 10).fill("black").addTo(container);
+var rect18 = new Rect(160, 210, 20, 10).fill("black").addTo(container);
+var rect19 = new Rect(180, 200, 10, 10).fill("black").addTo(container);
+var rect20 = new Rect(190, 190, 10, 10).fill("black").addTo(container);
+var rect21 = new Rect(200, 180, 10, 10).fill("black").addTo(container);
+var rect22 = new Rect(210, 160, 10, 20).fill("black").addTo(container);
+var rect23 = new Rect(220, 130, 10, 30).fill("black").addTo(container);
+var rect24 = new Rect(120, 100, 10, 30).fill("black").addTo(container);
+var rect25 = new Rect(130, 130, 20, 10).fill("black").addTo(container);
+var rect26 = new Rect(150, 110, 10, 20).fill("black").addTo(container);
+var rect27 = new Rect(180, 140, 20, 10).fill("black").addTo(container);
+var rect28 = new Rect(170, 150, 10, 20).fill("black").addTo(container);
+var rect29 = new Rect(180, 170, 20, 10).fill("black").addTo(container);
+var rect30 = new Rect(200, 150, 10, 20).fill("black").addTo(container);
+var rect31 = new Rect(130, 170, 20, 10).fill("black").addTo(container);
+var rect32 = new Rect(120, 200, 30, 10).fill("black").addTo(container);
+var rect33 = new Rect(150, 180, 10, 20).fill("black").addTo(container);
+var rect34 = new Rect(130, 180, 20, 20).fill("red").addTo(container);
+var rect35 = new Rect(130, 110, 10, 20).fill("red").addTo(container);
+var rect36 = new Rect(130, 120, 20, 10).fill("red").addTo(container);
+var rect37 = new Rect(180, 150, 20, 20).fill("red").addTo(container);
+var rect38 = new Rect(120, 140, 50, 30).fill("gold").addTo(container);
+var rect39 = new Rect(110, 110, 10, 30).fill("gold").addTo(container);
+var rect40 = new Rect(120, 130, 10, 50).fill("gold").addTo(container);
+var rect41 = new Rect(160, 120, 10, 90).fill("gold").addTo(container);
+var rect42 = new Rect(150, 130, 10, 50).fill("gold").addTo(container);
+var rect42 = new Rect(160, 170, 20, 40).fill("gold").addTo(container);
+var rect42 = new Rect(160, 120, 20, 30).fill("gold").addTo(container);
+var rect42 = new Rect(170, 130, 50, 10).fill("gold").addTo(container);
+var rect42 = new Rect(200, 130, 20, 20).fill("gold").addTo(container);
+var rect42 = new Rect(210, 130, 10, 30).fill("gold").addTo(container);
+var rect42 = new Rect(200, 170, 10, 10).fill("gold").addTo(container);
+var rect42 = new Rect(170, 180, 30, 10).fill("gold").addTo(container);
+var rect42 = new Rect(130, 210, 30, 10).fill("gold").addTo(container);
+var rect42 = new Rect(150, 200, 10, 20).fill("gold").addTo(container);
+var rect42 = new Rect(180, 190, 10, 10).fill("gold").addTo(container);
+var rect42 = new Rect(200, 190, 20, 10).fill("brown").addTo(container);
+var rect42 = new Rect(210, 180, 20, 10).fill("brown").addTo(container);
+var rect42 = new Rect(190, 200, 20, 10).fill("brown").addTo(container);
+var rect42 = new Rect(180, 210, 20, 10).fill("brown").addTo(container);
+var rect42 = new Rect(160, 220, 30, 10).fill("brown").addTo(container);
+var rect42 = new Rect(140, 230, 30, 10).fill("brown").addTo(container);
+var rect42 = new Rect(160, 220, 10, 20).fill("brown").addTo(container);
+var rect42 = new Rect(180, 210, 10, 20).fill("brown").addTo(container);
+var rect42 = new Rect(190, 200, 10, 20).fill("brown").addTo(container);
+var rect42 = new Rect(200, 190, 10, 20).fill("brown").addTo(container);
+var rect42 = new Rect(210, 180, 10, 20).fill("brown").addTo(container);
+var rect42 = new Rect(220, 160, 10, 30).fill("brown").addTo(container);
+var rect42 = new Rect(230, 140, 10, 30).fill("brown").addTo(container);
+var rect42 = new Rect(220, 160, 20, 10).fill("brown").addTo(container);
+container.addTo(stage);
+
+
+    },
+    width: 1000,   //change the width and height of the canvas
+    height: 1000
+  });
+</script></body>
+</html>
